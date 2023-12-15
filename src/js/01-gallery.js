@@ -90,11 +90,11 @@ const gallery = document.querySelector('.gallery');
 gallery.innerHTML = markup;
 
 //init SimpleLightbox
-let gallery2 = new SimpleLightbox('ul.gallery a', {
+let modal = new SimpleLightbox('ul.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
 })();
-// gallery2.open();
+// modal.open();
 
 // //function onEscKeyPress
 // let modal;
