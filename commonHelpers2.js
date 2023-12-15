@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";var a=require("validator");a.isEmail("foo@bar.com");
+import"./assets/modulepreload-polyfill-ec808ebb.js";import{d as a}from"./assets/vendor-a50a93cf.js";const o="feedback-form-state",t=document.querySelector(".feedback-form");t.querySelector("input");const c=t.querySelector("textarea");t.addEventListener("submit",e=>{e.preventDefault(),localStorage.removeItem(o)});c.addEventListener("input",a(e=>{const r=e.target.value;localStorage.setItem(o,r)},1e3));
 //# sourceMappingURL=commonHelpers2.js.map
