@@ -20,7 +20,7 @@
 
 /* animation */
 .gallery-item:hover {
-    cursor: url('../img/bxs_hand-down.png'), pointer;
+    /* cursor: url('../img/bxs_hand-down.png'), pointer; */
     transform: scale(1.025);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

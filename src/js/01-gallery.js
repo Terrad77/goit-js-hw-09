@@ -93,8 +93,8 @@ gallery.innerHTML = markup;
 let gallery2 = new SimpleLightbox('ul.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
-});
-gallery2.open();
+})();
+// gallery2.open();
 
 // //function onEscKeyPress
 // let modal;
