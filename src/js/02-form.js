@@ -1,5 +1,4 @@
 'use strict';
 import validator from 'validator';
-var validator = require('validator');
-
-validator.isEmail('foo@bar.com');
+var validate = require('validator');
+validate.isEmail('foo@bar.com');
