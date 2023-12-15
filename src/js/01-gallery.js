@@ -89,10 +89,12 @@ const markup = images.reduce(
 const gallery = document.querySelector('.gallery');
 gallery.innerHTML = markup;
 
-// let gallery = new SimpleLightbox('.gallery a', {
-//   captionDelay: 250,
-//   captionsData: 'alt',
-// });
+//init SimpleLightbox
+let gallery2 = new SimpleLightbox('ul.gallery a', {
+  captionDelay: 250,
+  captionsData: 'alt',
+});
+gallery2.open();
 
 // //function onEscKeyPress
 // let modal;
