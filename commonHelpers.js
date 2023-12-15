@@ -5,5 +5,5 @@ import"./assets/modulepreload-polyfill-ec808ebb.js";import"./assets/vendor-17d14
        alt="${i}"
        />
       </a>
-    </li>`,""),n=document.querySelector(".gallery");n.innerHTML=e;let c=new SimpleLightbox("ul.gallery a",{captionDelay:250,captionsData:"alt"});c.open();
+    </li>`,""),c=document.querySelector(".gallery");c.innerHTML=e;new SimpleLightbox("ul.gallery a",{captionDelay:250,captionsData:"alt"})();
 //# sourceMappingURL=commonHelpers.js.map

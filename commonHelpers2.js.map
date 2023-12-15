@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers2.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers2.js","sources":["../src/js/02-form.js"],"sourcesContent":["'use strict';\nimport validator from 'validator';\nvar validate = require('validator');\nvalidate.isEmail('foo@bar.com');\n"],"names":["validate"],"mappings":"oDAEA,IAAIA,EAAW,QAAQ,aACvBA,EAAS,QAAQ,aAAa"}
