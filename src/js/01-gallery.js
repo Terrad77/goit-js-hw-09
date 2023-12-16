@@ -1,6 +1,6 @@
 'use strict';
 //імпорт бібліотеки
-import simplelightbox from 'simplelightbox';
+import simpleLightbox from 'simplelightbox ';
 // Додатковий імпорт стилів щоб підключити CSS код бібліотеки в проєкт
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
@@ -90,11 +90,11 @@ const gallery = document.querySelector('.gallery');
 gallery.innerHTML = markup;
 
 //init SimpleLightbox
-let modal = new SimpleLightbox('ul.gallery a', {
+let modal = new simpleLightbox('ul.gallery a', {
   captionDelay: 250,
   captionsData: 'alt',
-})();
-// modal.open();
+});
+modal.open();
 
 // //function onEscKeyPress
 // let modal;

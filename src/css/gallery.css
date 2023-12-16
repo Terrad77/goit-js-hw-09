@@ -30,3 +30,16 @@
     height: 100%;
     object-fit: cover;
 }
+.sl-wrapper {   
+    background: #2E2F42CC;    
+}
+.sl-wrapper button.sl-close {
+    color: #FFF; 
+}
+.sl-wrapper .sl-navigation button.sl-prev,
+.sl-wrapper .sl-navigation button.sl-next {
+color: #FFF;
+}
+.sl-wrapper.simple-lightbox div.sl-counter {
+    color: #FFF;
+}
