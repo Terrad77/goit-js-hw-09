@@ -1,11 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 16px; 
+}
+body {         
+    background:#eae5e5;
+}
+
 form {
     display: inline-flex;
-        padding: 24px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        border-radius: 8px;
-            background: #FFF;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
 }
 input {
     width: 360px;
@@ -15,49 +32,47 @@ input {
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-
-
-
-
+    
 }
 
-input::placeholder {
+input::placeholder { 
     color: #2E2F42;
-    opacity: 1;
     /* скидаємо  непрозорість у Firefox */
-    letter-spacing: 0.04em;
+    opacity: 1;        
 }
 
-textarea {
+
+
+.feedback-form textarea {
     display: inline-flex;
     padding: 24px;
     flex-direction: column;
-    gap: 16px;
-    border-radius: 8px;
+    gap: 16px;    
     background: #FFF;
-
-
     
-        width: 360px;
-        height: 80px;
-        border-radius: 4px;
-        border: 1px solid #808080;
+    width: 360px;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    resize: none;
 }
 
 button {
-display: inline-flex;
-    padding: 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #FFFFFF;
+    width: 95px;
+    height: 40px;
+    font-weight: 500;
+   
+}
 
-
-    /* display: flex;
-        padding: 8px 16px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 8px;
-            background: #4E75FF; */
-
+button:hover {
+    background: #6C8CFF;
 }

@@ -61,3 +61,8 @@ form.addEventListener('submit', event => {
     form.reset();
   }
 });
+
+// style
+
+input.placeholder = 'Type area';
+textarea.style = 'height: 80px; width: 360px; disabled;';
